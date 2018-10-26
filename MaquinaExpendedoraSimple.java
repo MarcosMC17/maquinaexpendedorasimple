@@ -43,6 +43,11 @@ public class MaquinaExpendedoraSimple {
         return totalDineroAcumulado;
     }
     
+     public int setCambiarPrecio(int costeBillete) {
+         precioBillete = costeBillete;
+         return precioBillete;
+    }
+    
     /**
      * Devuelve la cantidad de dinero que el cliente actual lleva introducida
      */
